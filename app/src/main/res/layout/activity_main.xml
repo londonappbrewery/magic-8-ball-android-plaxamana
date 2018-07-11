@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/activity_main"
     android:layout_width="match_parent"
@@ -12,7 +13,7 @@
     tools:context=".MainActivity">
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/askBtn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
@@ -33,4 +34,12 @@
         android:textColor="#000000"
         android:textSize="20sp"
         android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/img_eightBall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:contentDescription="@string/desc"
+        android:src="@drawable/ball1" />
 </RelativeLayout>
